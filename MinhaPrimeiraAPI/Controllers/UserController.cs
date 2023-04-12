@@ -24,7 +24,7 @@ namespace MinhaPrimeiraAPI.Controllers
         [HttpGet("{id}")]
         public UserModel Get(int id)
         {
-            UserModel user = new UserModel() { Id = 1, Name = "Fellipi Borges", Email = "fellipiborgesmc@gmail.com" };
+            UserModel user = new UserModel() { Id = 1, Name = "Fellipi Borges", Email = "fellipiborgesmc@hotmail.com" };
 
             return user;
         }
